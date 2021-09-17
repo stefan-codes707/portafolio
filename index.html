@@ -8,7 +8,7 @@
     <link href="style.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d4120fe0ad.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body id="body">
     <img src="images/page-bg.jpg" alt="" class="fondo">
     <header class="header">
         <div class="nav-responsive" id="nav-responsive"><i class="fas fa-bars"></i></div>
@@ -22,10 +22,18 @@
 
             <nav class="nav">
                 <ul>
-                    <li>About Me</li>
-                    <li>Proyects</li>
-                    <li>Skills</li>
-                    <li>Contact me</li>
+                    <li>
+                        <a href="#about-me">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#proyects">Proyects</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#contact-me">Contact me</a>
+                    </li>
                 </ul>
             </nav>
 
@@ -41,38 +49,51 @@
         </div>
     </header>
 
-    <div class="container-header-responsive" id="header-responsive">
-        <div class="close" id="close"><i class="fas fa-times"></i></div>
-        <div class="img-autor">
-            <img src="images/author-image.jpg" alt="autor">
+    <div class="responsive-design-header">
+        <div class="container-header-responsive" id="header-responsive">
+            <div class="close" id="close"><i class="fas fa-times"></i></div>
+            <div class="img-autor">
+                <img src="images/author-image.jpg" alt="autor">
+            </div>
+               
+            <h4 class="h4">Stefan Castillo</h4>
+            <span class="span">Web Developer</span>
+    
+            <nav class="nav">
+                <ul>
+                    <li>
+                        <a href="#about-me">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#proyects">Proyects</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#contact-me">Contact me</a>
+                    </li>
+                </ul>
+            </nav>
+    
+            <div class="redes">
+                <div class="red"><i class="fab fa-facebook-f"></i></div>
+                <div class="red"><i class="fab fa-instagram"></i></div>
+                <div class="red"><i class="fab fa-codepen"></i></div>
+                <div class="red"><i class="fab fa-github"></i></div>
+                <div class="red"><i class="fab fa-linkedin"></i></div>
+            </div>
+            <hr>
+            <span class="span-two">Coded by Stefan Castillo</span>
         </div>
-           
-        <h4 class="h4">Stefan Castillo</h4>
-        <span class="span">Web Developer</span>
-
-        <nav class="nav">
-            <ul>
-                <li>About Me</li>
-                <li>Proyects</li>
-                <li>Skills</li>
-                <li>Contact me</li>
-            </ul>
-        </nav>
-
-        <div class="redes">
-            <div class="red"><i class="fab fa-facebook-f"></i></div>
-            <div class="red"><i class="fab fa-instagram"></i></div>
-            <div class="red"><i class="fab fa-codepen"></i></div>
-            <div class="red"><i class="fab fa-github"></i></div>
-            <div class="red"><i class="fab fa-linkedin"></i></div>
-        </div>
-        <hr>
-        <span class="span-two">Coded by Stefan Castillo</span>
     </div>
+        
+    
+    
 
     <main class="main">
         <div class="container-main">
-            <section class="section">
+            <section class="section" id="about-me">
                 <h1 class="h1">About me</h1>
                 <p class="p">This is a Bootstrap v4.2.1 CSS Template for you. Edit and use this layout for your site. Updated on 21 May 2019 for repeated main menu HTML code.</p>
     
@@ -107,35 +128,43 @@
                 </div>
             </section>
             <hr class="hr">
-            <section class="section">
+            <section class="section" id="skills">
                 <h2 class="h1">What I’m good at?</h2>
                 <p class="p">Curabitur leo felis, rutrum vitae varius eu, malesuada a tortor. Vestibulum congue leo et tellus aliquam, eu viverra nulla semper. Nullam eu faucibus diam. Donec eget massa ante.</p>
     
                     <div class="card-information">
                         <div class="container-card">
-                            <img src="images/first-main-icon.png" alt="first-icon"><br>
+                            <img src="images/first-white-icon.png" alt="first-icon" class="icon">
+                            <img src="images/first-main-icon.png" alt="first-icon" class="change-icon">
+                            <br>
                             <span>HTML5 & CSS3</span>
                             <p>Phasellus non convallis dolor. Integer tempor hendrerit arcu at bibendum. Sed ac ante non metus vehicula congue quis eget eros.</p>
                         </div>
                         <div class="container-card">
-                            <img src="images/second-main-icon.png" alt="second-icon"><br>
+                            <img src="images/second-white-icon.png" alt="second-icon" class="icon">
+                            <img src="images/second-main-icon.png" alt="second-icon" class="change-icon">
+                            <br>
                             <span>REACT JS</span>
                             <p>Proin lacus massa, eleifend sed fermentum in, dignissim vel metus. Nunc accumsan leo nec felis porttitor, ultricies faucibus purus mollis.</p>
                         </div>
                         <div class="container-card">
-                            <img src="images/third-main-icon.png" alt="third-icon"><br>
+                            <img src="images/third-white-icon.png" alt="third-icon" class="icon">
+                            <img src="images/third-main-icon.png" alt="third-icon" class="change-icon">
+                            <br>
                             <span>BOOSTRAP & SASS</span>
                             <p>Integer suscipit condimentum aliquet. Nam quis risus metus. Nullam faucibus quam eget arcu pretium tincidunt. Nam libero dui.</p>
                         </div>
                         <div class="container-card">
-                            <img src="images/fourth-main-icon.png" alt="fourth-icon"><br>
+                            <img src="images/fourth-white-icon.png" alt="fourth-icon" class="icon">
+                            <img src="images/fourth-main-icon.png" alt="fourth-icon" class="change-icon">
+                            <br>
                             <span>PHOTOSHOP</span>
                             <p>Vivamus et dui a massa venenatis fringilla. Proin lacus massa, eleifend sed fermentum in, dignissim vel metus. Nunc accumsan leo nec felis porttitor.</p>
                         </div>
                     </div>
             </section>
             <hr class="hr">
-            <section class="section">
+            <section class="section" id="proyects">
                 <h2 class="h1">My Projects</h2>
                 <p class="p">Aenean sollicitudin ex mauris, lobortis lobortis diam euismod sit amet. Duis ac elit vulputate, lobortis arcu quis, vehicula mauris..</p>
     
@@ -143,7 +172,7 @@
                         <figure>
                             <img src="images/portfolio-01.jpg" alt="first-work">
                             <figcaption>
-                                <a href="images/portfolio-01.jpg"><i class="fas fa-search"></i></a>
+                                <a href="images/portfolio-01.jpg" id="foto" onclick="foto()"><i class="fas fa-search"></i></a>
                                 <h4>First title</h4>
                                 <span>free to use our template</span>
                             </figcaption>
@@ -152,7 +181,7 @@
                         <figure>
                             <img src="images/portfolio-02.jpg" alt="second-work">
                             <figcaption>
-                                <a href="images/portfolio-02.jpg"><i class="fas fa-search"></i></a>
+                                <a href="images/portfolio-02.jpg" class="url"><i class="fas fa-search"></i></a>
                                 <h4>Second title</h4>
                                 <span>free to use our template</span>
                             </figcaption>
@@ -161,7 +190,7 @@
                         <figure>
                             <img src="images/portfolio-03.jpg" alt="thirth-work">
                             <figcaption>
-                                <a href="images/portfolio-03.jpg"><i class="fas fa-search"></i></a>
+                                <a href="images/portfolio-03.jpg" class="url"><i class="fas fa-search"></i></a>
                                 <h4>Third title</h4>
                                 <span>free to use our template</span>
                             </figcaption>
@@ -170,7 +199,7 @@
                         <figure>
                             <img src="images/portfolio-04.jpg" alt="fourth-work">
                             <figcaption>
-                                <a href="images/portfolio-04.jpg"><i class="fas fa-search"></i></a>
+                                <a href="images/portfolio-04.jpg" class="url"><i class="fas fa-search"></i></a>
                                 <h4>Fourth title</h4>
                                 <span>free to use our template</span>
                             </figcaption>
@@ -179,7 +208,7 @@
                         <figure>
                             <img src="images/portfolio-05.jpg" alt="fifth-work">
                             <figcaption>
-                                <a href="images/portfolio-05.jpg"><i class="fas fa-search"></i></a>
+                                <a href="images/portfolio-05.jpg" class="url"><i class="fas fa-search"></i></a>
                                 <h4>Fifth title</h4>
                                 <span>free to use our template</span>
                             </figcaption>
@@ -188,7 +217,7 @@
                         <figure>
                             <img src="images/portfolio-06.jpg" alt="sixth-work">
                             <figcaption>
-                                <a href="images/portfolio-06.jpg"><i class="fas fa-search"></i></a>
+                                <a href="images/portfolio-06.jpg" class="url"><i class="fas fa-search"></i></a>
                                 <h4>Awesome sixth</h4>
                                 <span>free to use our template</span>
                             </figcaption>
@@ -196,7 +225,7 @@
                     </div>
             </section>
             <hr class="hr">
-            <section class="section">
+            <section class="section" id="contact-me">
                 <h3 class="h1">Contact me</h3>
                 <p class="p">Fusce eget nibh nec justo interdum condimentum. Morbi justo ex, efficitur at ante ac, tincidunt maximus ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
