@@ -30,7 +30,7 @@ body{
 }
 
 .container-header{
-    min-width: 255px;
+    min-width: 265px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -171,7 +171,9 @@ a{
 }
 
 /*CONTENIDO*/
-
+.close{
+    display:none;
+}
 .container-main{
     max-width:1000px;
     width:100%;
@@ -411,6 +413,7 @@ textarea::placeholder{
 @media (max-width:700px) {
     .container-header{
         display:none;
+        height:auto;
     }
     .nav-responsive{
         display: block;
@@ -428,4 +431,8 @@ textarea::placeholder{
     .last-name, .name{
         width:100%;
     }
+    .close{
+        display:block;
+    }
+    
 }
